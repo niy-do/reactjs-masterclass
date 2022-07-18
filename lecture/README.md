@@ -77,3 +77,13 @@ styled component 사용 시 theme 속성을 정의한다.
    `npm i react-hook-form`
 
 3. enum
+
+## \#6 [2021 UPDATE] TRELLO CLONE
+
+### React Memo
+
+컴포넌트의 props가 변경되지 않는 경우 재 렌더링을 하지 않도록 하는 React 최적화 기술
+
+```javascript
+export default React.memo(Component);
+```
